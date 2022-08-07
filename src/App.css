@@ -15,17 +15,39 @@ img {
     overflow-wrap: break-word;
   }
   
+  #dName {
+    color: #525050;
+    float: top;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .userCurrent {
+    text-align: right;
+    padding: 7.5rem 4rem 2rem 3rem;
+    width: 50%;
+    align-items: end;
+    margin: 0px 0px 0px auto;
+  }
+
+  .otherUser {
+    text-align: left;
+    padding: 7.5rem 4rem 2rem 0rem;
+    width: 50%;
+    align-items: end;
+    margin: 0px auto 0px 2%;
+  }
+
   .msg {
     display: flex;
     padding: 20px 10px 0 20px;
-    margin: 20px;
+    margin: 24px 24px 0px 24px;
     border-radius: 3000px;
     box-shadow: 0 0 10px rgb(164, 164, 164);
     align-items: center;
   }
   
   .sent {
-    background-color: #395dff;
+    background-color: #833cf5;
     color: white;
     border-top-right-radius: 1000px;
     flex-direction: row-reverse;
